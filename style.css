@@ -1,0 +1,78 @@
+body {
+	background-color: #A9A9A9;
+}
+
+nav {
+	position: absolute;
+	top: 75px;
+	right: 535px;
+}
+
+nav a {
+	font-style: 42px;
+}
+
+h1, h3 {
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px #ffffff;
+}
+
+.paginas li {
+	display: inline-block;
+	padding-left: 190px;
+	padding-top: 70px;
+}
+
+form {
+	color: white;
+}
+
+.localizacao {
+	text-align: center;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.video {
+	text-align: center;
+}
+
+h1:first-letter {
+	font-size: 2.5em;
+	color: red;
+}
+
+.escudo {
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.li-index {
+	text-align: center;
+}
+
+.escudo {
+	opacity: 0.6;
+	transition: 400ms;
+}
+
+.escudo:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background: #4A4747;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.paginas li {
+		padding-left: 85px;
+		padding-top: 30px;
+	}
+}
